@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Privacy Policy — gog</title>
+  <style>
+    body { max-width: 760px; margin: 3rem auto; padding: 0 1.25rem;
+           font-family: -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+           line-height: 1.7; color: #222; }
+    h1 { font-size: 1.8rem; }
+    h2 { font-size: 1.25rem; margin-top: 2rem; }
+    a { color: #0b57d0; }
+    .updated { color: #777; font-size: .9rem; }
+    footer { margin-top: 3rem; color: #777; font-size: .9rem;
+             border-top: 1px solid #eee; padding-top: 1rem; }
+  </style>
+</head>
+<body>
+  <h1>Privacy Policy</h1>
+  <p class="updated">Last updated: 31 October 2026</p>
+
+  <h2>1. What this is</h2>
+  <p><strong>gog</strong> is a personal, locally installed command-line application
+  (<a href="https://github.com/openclaw/gogcli">openclaw/gogcli</a>). It lets its single
+  operator access their own Google Workspace data — Gmail, Google Calendar, Google Drive,
+  Google Docs, Google Sheets and Google Contacts — from a terminal on their own computer.</p>
+
+  <h2>2. What data is accessed</h2>
+  <p>With the operator's explicit consent through Google's OAuth 2.0 authorization screen,
+  gog may access: Gmail messages and settings; Google Calendar events; Google Drive files;
+  Google Docs documents; Google Sheets spreadsheets; and Google Contacts, depending on the
+  scopes the operator grants. The OAuth scopes requested are limited to those needed for the
+  features the operator chooses to authorize.</p>
+
+  <h2>3. How data is used</h2>
+  <p>Data is retrieved only when the operator runs a command, and is used only to display
+  or modify that operator's own data as instructed by the operator. Data is not used for
+  advertising, profiling, analytics or model training.</p>
+
+  <h2>4. Where data is stored</h2>
+  <p>This application has no server, no hosted backend and no database. Data retrieved from
+  Google is held only in the memory of the operator's own computer for the duration of the
+  command, or written to a local file only when the operator explicitly requests an export.
+  OAuth credentials and refresh tokens are stored in the operating system's credential
+  manager (Windows Credential Manager on this machine) and are never transmitted anywhere
+  except to Google's own OAuth endpoints.</p>
+
+  <h2>5. Sharing</h2>
+  <p>No Google user data is sold, rented, shared, transferred or disclosed to any third
+  party. No third-party analytics, trackers or advertising services are used. Network
+  traffic goes only to Google APIs (<code>*.googleapis.com</code>) and the OAuth endpoints
+  at <code>accounts.google.com</code>.</p>
+
+  <h2>6. Retention and deletion</h2>
+  <p>gog retains no copy of Google user data after the command completes. The operator can
+  revoke access at any time via
+  <a href="https://myaccount.google.com/permissions">Google Account permissions</a>, or by
+  deleting the stored credentials with the application's <code>auth</code> commands; the
+  refresh token is then permanently removed from the local credential store.</p>
+
+  <h2>7. Your controls</h2>
+  <p>Access is granted solely by the account owner through Google's consent screen. The
+  operator may decline or revoke any scope, and may run the tool in read-only mode.
+  Google's own policies also apply to the data.</p>
+
+  <h2>8. Hosting of this page</h2>
+  <p>This informational page is served by GitHub Pages. GitHub may collect standard web
+  server logs (such as IP addresses) when the page is visited, in accordance with
+  <a href="https://docs.github.com/en/site-policy/privacy-policies/github-privacy-statement">GitHub's Privacy Statement</a>.
+  No analytics or cookies are used by this page itself.</p>
+
+  <h2>9. Contact</h2>
+  <p>Questions about this policy: <a href="https://github.com/libroling666-cell">github.com/libroling666-cell</a>.</p>
+
+  <footer>gog privacy policy — page <a href="./index.html">home</a></footer>
+</body>
+</html>
