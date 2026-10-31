@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>gog — Google Workspace CLI</title>
+  <style>
+    body { max-width: 720px; margin: 3rem auto; padding: 0 1.25rem;
+           font-family: -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+           line-height: 1.65; color: #222; }
+    h1 { font-size: 1.9rem; margin-bottom: .2rem; }
+    .sub { color: #666; margin-top: 0; }
+    code { background: #f3f3f3; padding: .15em .35em; border-radius: 4px; }
+    a { color: #0b57d0; }
+    footer { margin-top: 3rem; color: #777; font-size: .9rem;
+             border-top: 1px solid #eee; padding-top: 1rem; }
+  </style>
+</head>
+<body>
+  <h1>gog — Google Workspace CLI</h1>
+  <p class="sub">A personal command-line tool for Gmail, Calendar, Drive, Docs, Sheets, and Contacts.</p>
+
+  <p><strong>gog</strong> is a locally installed, open-source command-line client
+  (<a href="https://github.com/openclaw/gogcli">openclaw/gogcli</a>) used to read and
+  manage a single person's own Google Workspace data from a terminal.</p>
+
+  <p>It runs entirely on the user's own computer. It authenticates directly with Google
+  using the user's own Google Cloud OAuth client and stores the resulting OAuth refresh
+  token in the operating system's credential store (Windows Credential Manager on this
+  machine). There is no server operated by this project and no third-party data storage.</p>
+
+  <p>Typical usage:</p>
+  <pre><code>gog gmail search 'newer_than:7d' --max 10
+gog calendar events --today
+gog drive ls --max 20</code></pre>
+
+  <h2>Privacy</h2>
+  <p>See the <a href="./privacy.html">privacy policy</a> for how Google user data is handled.</p>
+
+  <footer>
+    Contact: <a href="https://github.com/libroling666-cell">github.com/libroling666-cell</a>
+  </footer>
+</body>
+</html>
